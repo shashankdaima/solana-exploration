@@ -1,0 +1,19 @@
+{
+  "name": "solana-exploration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx tsc && node dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana-developers/helpers": "^2.2.0",
+    "@solana/web3.js": "^1.91.1",
+    "bs58": "^5.0.0",
+    "esrun": "^3.2.26"
+  }
+}
